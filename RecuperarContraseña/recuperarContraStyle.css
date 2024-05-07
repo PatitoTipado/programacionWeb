@@ -1,0 +1,30 @@
+.main{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    max-width: 40%;
+}
+
+.formulario{
+    height: 200px;
+    background-color: rgba(216, 218, 222, 0.06);
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.formulario label{
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.botones button{
+    padding: 12px;
+    border-radius: 10%;
+
+}
+
+.formulario input{
+    margin-top: 16px;
+    height: 40px;
+    min-width: 400px;
+}

@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    border: none;
+
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(#03002c, #08073b, #020022);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(216, 218, 222); /* el color de las letras */
+}
+
+.contenedorHeader{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#logo{
+    height: 80px;
+    opacity: 1;
+}
+
+#registrate{
+    margin-right: 30px;
+    color: rgb(216, 218, 222); /* el color de las letras */
+}
+
+.Titulos{
+    font-size: 32px;
+}
+
+.Botones button{
+    margin: 20px;
+    padding: 12px;
+    border-radius: 10%;
+    width: 200px;
+}

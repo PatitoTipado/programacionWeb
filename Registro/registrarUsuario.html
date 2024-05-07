@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../estilos generales/estiloGeneral.css">
+    <link rel="stylesheet" href="./estiloRegistro.css">
+</head>
+<body>
+            
+    <header class="contenedorHeader">
+        <a href="../index.html"><img src="../Imagenes/Logo UnflixV2.png" alt="Unflix" id="logo"></a>
+        
+        <nav>
+            <a href="../Registro/registrarUsuario.html" id="registrate"> Registrate</a>
+        </nav>
+
+    </header>
+
+    <main class="contenedor-general">
+
+        <form action="../index.html" method="post">
+            
+            <fieldset class="contenedor-formulario ">
+
+                <h1 class="Titulos">Registrarse</h1>
+                    
+                <label for="name">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="ingrese nombre" />
+                    
+                <label for="name">Apellido:</label>
+                <input type="text" placeholder="ingrese apellido" id="apellido" name="userApellido" />
+        
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_mail" placeholder="ingrese email" required/>
+                              
+                <label for="user_nombre">Nombre de usuario:</label>
+                <input type="text" id="nombreUsuario" name="user_nombre" placeholder="nombre de usuario"/>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña"/>
+        
+                <label for="password">Repetir contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Repita contraseña"/>
+              
+            </fieldset>   
+
+            <fieldset class="contenedor-metodoPago ">
+
+            <h1 class="Titulos">Metodo de pago</h1>
+
+                <ul>
+                    <li>
+                        <input type="radio" id="debito" name="metodoPago" value="debito" checked>
+                        <label for="debito">Tarjeta debito </label>
+        
+                        <input type="radio" id="credito" name="metodoPago" value="credito">
+                        <label for="credito">Tarjeta credito </label>        
+                    </li>
+                </ul>
+                    <!-- dejare el tipo de text, ya que se podrian de llegar a utilizar guiones eso se podra contener en js?-->
+                    <label for="numeroTarjeta">numero de tarjeta</label>
+                    <input type="text" id="numeroTarjeta" name="numeroTarjeta" placeholder="numero de su tarjeta" >
+
+                    <label for="caducidadTarjeta">fecha de caducidad</label>
+                    <input type="date" id="caducidadTarjeta" name="caducidadTarjeta">        
+
+                    <label for="titularTarjeta">titular de la tarjeta</label>
+                    <input type="text" id="titularTarjeta" placeholder="titular de tarjeta" name="titularTarjeta">        
+               
+                    <label for="cvv">cvv</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="CVV">        
+
+            </fieldset>
+                
+            <fieldset class="botones">
+                
+                <button type="submit"id="confirmar">Confirmar</button>
+                    <!--quedaba a merced de eventos? super feo un form dentro de otro xd no funca-->
+                <button type="submit" id="cancelar">Cancelar</button>
+
+            </fieldset>
+        </form>
+
+
+    </main>
+        
+</body>
+</html>

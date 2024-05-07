@@ -1,0 +1,49 @@
+
+.contenedor-general{
+    display: grid;
+}
+
+.contenedor-general input{
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario{
+    display: inline-grid;
+    height: 600px;
+    width: 48%;
+}
+
+.contenedor-metodoPago{
+    display: inline-grid;
+    height: 600px;
+    width: 48%;
+}
+
+.contenedor-metodoPago label{
+    height: 12px;
+    margin: 0%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+#confirmar{
+    background-color: greenyellow;
+    margin: 10px;
+    min-width: 100px;
+    min-height: 40px;
+}
+
+#cancelar{
+    background-color: red;
+    margin: 10px;
+    min-width: 100px;
+    min-height: 40px;
+}
+

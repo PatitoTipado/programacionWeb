@@ -1,0 +1,23 @@
+
+.login{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(216, 218, 222, 0.06);
+}
+
+.formulario fieldset{
+    padding: 20px;
+}
+
+.entradas input{
+    margin: 16px;
+    height: 40px;
+    width: 400px;
+}
+
+.check{
+    font-size: 18px;
+}
+
